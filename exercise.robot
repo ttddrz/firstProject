@@ -13,12 +13,7 @@ Exercise 1 Open Browser
 
     Open Browser    https://ultimateqa.com/complicated-page
     # Open Browser    https://commercialsaletool-sit.generali.co.th/agency    gc    options=add_argument("--start-maximized");add_experimental_option('excludeSwitches', ['enable-logging'])
-
-Exercise 2 Open Browser
-    Open Browser    about:blank    chrome
-    Go To    https://ultimateqa.com/complicated-page
-
-    Open Browser    https://ultimateqa.com/complicated-page
+    Close Browser
     
 Success case ทำการสั่งซื้อกาแฟ Americano 1 แก้ว
     GROUP   Step 1: เปิดเว็บไซต์
